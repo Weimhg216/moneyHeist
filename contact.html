@@ -1,0 +1,177 @@
+<!doctype>
+<html>
+<head>
+  <meta charset="UTF-8">
+<title>
+  Simple Contact Form
+ </title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="http://use.fontawesome.com/release/v5.5.o/css/all.css">
+ 
+ <style>
+ *
+ { margin: 0;
+   padding: 9;
+   font-family: Ubuntu, san-serif;
+   }
+ body
+ { background-color: grey;
+   }
+ 
+ header{
+    display: flex;
+     }
+
+.logo{
+	flex: 1;
+}
+
+nav{
+	flex: 3;
+	text-align: right;
+	padding: 20px;
+
+}
+nav a
+{
+  text-decoration: none;
+  color: black;
+  padding: 0px 30px;
+  transition: 0.5s ease;
+}
+
+nav a:hover
+{
+  color: white;
+}
+nav a.active
+{
+  
+  color: black;
+}
+nav a.gallery:hover
+{
+  border:1px solid black;
+  padding:2px 20px;
+  border-radius: 5px;
+  color: black;
+}
+nav a.gallery:hover
+{
+  background-color:white;
+  color: black;
+}
+
+   
+ .contact-us
+ { width: 250px;
+   background: white;
+   padding: 50px;
+   margin: 100px auto;
+   border-radius: 30px;
+   }
+ .title h1
+ { letter-spacing: 3px;
+    margin-bottom: 2px;
+	text-align: center;
+
+	}
+ .form form-items
+  { width: 100%;
+    }
+ .form-iterm input
+  { width:100%;
+    margin-bottom: 3px;
+	padding: 5px 20px;
+	box-sizing: border-box;
+	background: #ebeef1;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	}
+ .form-iterm input message
+  { height: 50px;
+    border-radius:30px;
+	margin-bottom: 10px;
+	padding:5px;
+	background: #ebeef1;
+	resize: none;
+	}
+ .btn
+  { background: #827ffe;
+    text-align: center;
+	color: white;
+	padding: 10px;
+	border-radius: 25px;
+	cursor: pointer;
+	}
+ .btn fas
+  { margin-left: 10px;
+    font-size: 12px;
+	}
+ .form-items
+ { position: relative;
+  }
+ .form-items fas
+  { position: absolute;
+    top: 15px;
+	left: 15px;
+	color: grey;
+	}
+
+ 
+ </style>
+ </head>
+  
+  <body>
+  
+  <header>
+    <div class="logo">
+	</div>
+	
+	<nav>
+		<a class="active" href="index.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="contact.html">CONTACT</a>
+		<a class="gallery" href="gallery.html">GALLERY</a>
+	</nav>
+</header>
+ 
+ <div class="contact-us">
+ <div class="title">
+  <h1> CONTACTS</h1>
+ </div>
+ <div class="form">
+  <div class="form-items">
+  <input type="text" class="input"placeholder="Jina la Kwanza">
+  <i class="fas fa-user"></i>
+  </div>
+ <div class="form-items">
+  <input type="text" class="input"placeholder="Jina la Mwisho">
+  <i class="fas fa-user"></i>
+  </div>
+  <div class="form-items">
+  <input type="text" class="input"placeholder="Simu">
+  <i class="fas fa-phone"></i>
+  </div>
+  <div class="form-items">
+  <input type="text" class="input"placeholder="Anwani">
+  <i class="fas fa-envelop"></i>
+  </div>
+ <div class="form-items">
+  <input type="text" class="input"placeholder="Mahali">
+  <i class="fas fa-location"></i>
+  </div>
+  <div class="form-items">
+  <textarea class="input message"cols="30" rows="10" placeholder="Ujumbe..">
+  </textarea>
+  </div>
+  </div>
+  
+ 
+ </body>
+ </html>
+ 
+ 
+ 
+ 

@@ -1,0 +1,138 @@
+<!doctype>
+<html>
+<head>
+  <title>Business Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  *{
+  margin: 0;
+  padding: 0;
+  font-family: san-serif;
+}
+body{
+  background: grey;
+}
+
+header{
+display: flex;
+}
+
+.logo{
+	flex: 1;
+}
+
+nav{
+	flex: 3;
+	text-align: right;
+	padding: 20px;
+
+}
+nav a
+{
+  text-decoration: none;
+  color: black;
+  padding: 0px 30px;
+  transition: 0.5s ease;
+}
+
+nav a:hover
+{
+  color: white;
+}
+nav a.active
+{
+  
+  color: black;
+}
+nav a.gallery:hover
+{
+  border:1px solid black;
+  padding:2px 20px;
+  border-radius: 5px;
+  color: black;
+}
+nav a.gallery:hover
+{
+  background-color:white;
+  color: black;
+}
+
+
+.main
+{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+ }
+
+.main h1
+{
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+.main p
+{
+  font-size: 18px;
+}
+
+.image
+{
+text-align: center;
+padding: 20px;
+}
+.welcome
+{
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+a.button1
+{
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+}
+a.button2
+{
+  color: black;
+  }
+a.button2:hover
+{
+  background-color: white;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+	</div>
+	
+	<nav>
+		<a class="active" href="index.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="contact.html">CONTACT</a>
+		<a class="gallery" href="gallery.html">GALLERY</a>
+	</nav>
+</header>
+	
+	
+ <div class="main">
+   <h1> Je, Unatafuta Fundi kwaajili ya Nguo yako..?</h1>
+     <p> Suluhisho moja na la pekee katika kutafuta Fundi mzuri wa nguo zako ni hapa.<br>
+	   iwe ya Ofisini, Shuleni au Sherehe..</p>
+ </div>
+ 
+ <div class="image">
+   <img src="./images/picture2.jpg">
+  </div>
+  
+  <div class="welcome">
+    <a class="button1" href="#"> Ndio </a>  
+	<a class="button2" href="#"> ===>  Tafuta</a>
+  </div>
+</body>
+</html>
